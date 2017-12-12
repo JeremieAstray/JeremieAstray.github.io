@@ -1,3 +1,5 @@
+##模拟spring容器，连接池实现，事务实现
+
 transaction-demo项目链接:https://github.com/JeremieAstray/transaction-demo
 
 ##模拟spring容器实现
