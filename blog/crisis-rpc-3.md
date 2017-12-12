@@ -1,7 +1,7 @@
-##Crisis-rpc之三传输对象与序列化
+## Crisis-rpc之三传输对象与序列化
 Crisis-rpc项目链接:https://github.com/JeremieAstray/crisis-rpc 
 这一篇博客讲的是Crisis-rpc如何定义rpc传输的对象，参数定义，序列化的方式等。
-##一、传输对象的定义
+## 一、传输对象的定义
 传输对象分为二个RpcInvocation和RpcResult。
 RpcInvocation包含了服务的id、服务名、服务要调用的类、调用的方法、返回参数类型、调用的类型和调用的参数。  
 RpcResult包含了服务的id、服务名、调用状态、返回的对象或者Exception。  
@@ -28,7 +28,7 @@ public class RpcResult implements Serializable {
 }
 ```
 
-##二、序列化工具
+## 二、序列化工具
 Crisis-rpc使用Java的序列化方式对对象进行序列化，这里拆成两种，将对象序列化为字节数组和字符串以及其反序列化。
 ```
 public class SerializeTool {
@@ -136,7 +136,7 @@ public class SerializeTool {
     }
 }
 ```
-##总结
+## 总结
 这一部分我自己定义了rpc的传输对象和序列化方式。  
 其实，这里写的序列化方式不是十分的完善，序列化的方式过于暴力，而且这样子序列化传输数据会有安全问题（局域网内部的话其实可以忽略），因此后面也需要继续对其进行优化。  
 

@@ -1,9 +1,9 @@
-##Crisis-rpc之四线程同步与rpc连接实现
+## Crisis-rpc之四线程同步与rpc连接实现
 Crisis-rpc项目链接:https://github.com/JeremieAstray/crisis-rpc 
 rpc连接即为使用各种连接方式进行网络通讯。通过不同的网络通讯来调用rpc服务。  
 这里我实现了几种连接方式：bio、nio、mina、netty和http。  
 这里我将针对bio进行详细描述，其它方式均是使用类似的方式进行rpc调用。  
-##一、线程同步
+## 一、线程同步
 RpcClient为接受RpcInvocation，并且使用不同连接方式进行rpc调用的类。在动态代理一章中曾说道过，rpc返回的对象是可以进行延迟加载的，所以这里就不详细说明了，这里主要说明rpc对象调用时的等待。  
 ps:如果返回类的类型为final、static、基本类型、void等，只能通过同步的方式调用rpc服务  
 这里的代码描述的就是主线程获取结果时，进行等待操作，等待rpc服务线程完成后唤醒  
@@ -124,7 +124,7 @@ public static RpcResult handleMessage(Object message, ApplicationContext applica
 ```
 
 
-##二、bio
+## 二、bio
 这里的bio连接我使用了类似与数据库线程池的方式，让应用程序持有多条bio连接，程序可以异步或同步调用这些连接进行通讯。  
 1、socket连接池  
 连接池实现有几个要点：
@@ -226,7 +226,7 @@ public class SocketPool<T extends PoolObject> {
     }
 }
 ```
-####socket线程  
+#### socket线程  
 每个线程就是一条连接，初始化后放置与连接池当中，有一个id用于标识。  
 调用时，调用handleObject方法接受RpcInvocation来调用rpc服务。  
 如果没有使用该线线程，该线程会处于线程等待：this.currentThread.wait();  
@@ -439,7 +439,7 @@ public class RpcSocket implements Runnable {
 }
 ```
 
-##总结：
+## 总结：
 这一部分的实现让我学习到了不少关于多线程同步之间的问题，还有客户端与服务端之间的协同的问题。  
 在C/S编程当中，我们不能只考虑客户端或者服务端一边的问题，或者盲目的采用捕捉exception的方式去解决问题，我们必须争取的处理好会遇到的各种通讯情况。  
 

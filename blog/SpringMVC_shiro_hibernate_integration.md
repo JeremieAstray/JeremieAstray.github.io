@@ -10,7 +10,7 @@ Apache Shiro是一个强大易用的Java安全框架，提供了认证、授权�
 附上项目：https://git.oschina.net/jeremie_astray/SpringMVC_Shiro/tree/master/  
 Annotion版本：https://git.oschina.net/jeremie_astray/SpringMVC_Shiro/tree/shiro_annotation  
 
-##一、实体
+## 一、实体
 ![ER图](image/SpringMVC_shiro_hibernate_integration/1.png)  
 对应关系：
 用户与角色为一对多关系
@@ -30,7 +30,7 @@ t_user_role（用户-角色表，中间表）
 t_role_permission（角色-权限表，中间表）  
 ![t_role_permission](image/SpringMVC_shiro_hibernate_integration/7.png)  
 实体类可以在文章结尾的git链接查看  
-##二、包导入及spring配置
+## 二、包导入及spring配置
 maven配置如下:
 
 ```
@@ -572,7 +572,7 @@ jdbc.maxStatements=50
 jdbc.testConnectionOnCheckin = false
 jdbc.idleConnectionTestPeriod = 18000
 ```
-##三、自定义Realm及自定义filterChainDefinition
+## 三、自定义Realm及自定义filterChainDefinition
 Realm是shiro获取身份验证相关信息与获取授权信息的重写:  
 获取授权信息(doGetAuthorizationInfo())：通过用户名和userService接口就可以获取对应角色及权限信息。  
 获取身份验证相关信息(doGetAuthenticationInfo())：首先根据传入的用户名获取User信息；然后如果user为空，那么抛出没找到帐号异常UnknownAccountException；如果user找到但锁定了抛出锁定异常LockedAccountException；最后生成AuthenticationInfo信息，交给间接父类AuthenticatingRealm使用CredentialsMatcher进行判断密码是否匹配，如果不匹配将抛出密码错误异常IncorrectCredentialsException；另外如果密码重试此处太多将抛出超出重试次数异常ExcessiveAttemptsException；  
@@ -735,7 +735,7 @@ public class ChainDefinitionSectionMetaSource implements FactoryBean<Ini.Section
     }
 }
 ```
-##四、jsp页面及Controller
+## 四、jsp页面及Controller
 
 登录界面login.jsp  
 ```
@@ -998,7 +998,7 @@ public class HomeController extends BaseController {
     }
 } 
 ```
-##五、补充内容，有关网页权限的注解配置，详见项目第二个分支  
+## 五、补充内容，有关网页权限的注解配置，详见项目第二个分支  
 po主几经波折，终于把使用注解的方式来通过权限来控制url的访问给弄好了。  
 首先附上经过修改后的userController注解版（具体用法）  
 ```

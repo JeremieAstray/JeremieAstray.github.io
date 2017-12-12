@@ -1,7 +1,7 @@
-##Crisis-rpc之二spring配置初始化与获取
+## Crisis-rpc之二spring配置初始化与获取
 Crisis-rpc项目链接:https://github.com/JeremieAstray/crisis-rpc  
 Crisis-rpc中要使用spring来进行服务的初始化，以下就是描述该实现：  
-##spring配置
+## spring配置
 首先要从spring配置文件说起。 
 Crisis-rpc框架可以配置多个rpc服务，每个服务可以指定ip，端口，使用什么连接实现，是否延迟加载，要进行代理的包等。
 
@@ -41,7 +41,7 @@ ps:当程序结束前，要让程序调用destroy方法(其调用了线程池的
     </property>
 </bean>
 ```
-##Java配置类
+## Java配置类
 
 ServiceConfig配置类：
 ```
@@ -121,7 +121,7 @@ public enum RpcClientEnum {
 }
 ```
 
-##总结：
+## 总结：
 在这一部分的实现里面，我学习了spring配置一个bean对应bean所需要的东西，还有spring初始化bean，结束beans的流程。  
 关于枚举，其实是枚举是一个非常好用的东西，只要合适的使用它，它会让你的代码更加优雅。  
 

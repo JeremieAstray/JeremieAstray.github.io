@@ -1,4 +1,4 @@
-##https的加密解密过程
+## https的加密解密过程
 
 1、client请求server证书  
 2、server把证书内容，公钥传给client  

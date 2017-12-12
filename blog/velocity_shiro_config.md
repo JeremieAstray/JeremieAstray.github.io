@@ -1,4 +1,4 @@
-##关于velocity shiro 的整合问题：velocity-tools2.0该如何配置
+## 关于velocity shiro 的整合问题：velocity-tools2.0该如何配置
 
 springmvc4.1.0,shiro1.2.3,velocity1.7,velocity-tools2.0  
 velocityToolBox.xml的配置方式如下(与[shiro-velocity整合](https://github.com/eduosi/shiro-velocity-support)不一致，与网络上大多不一样，此配置参考了velocity-tools包里面的配置文件而来)：

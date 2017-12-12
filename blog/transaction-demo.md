@@ -1,8 +1,8 @@
-##模拟spring容器，连接池实现，事务实现
+## 模拟spring容器，连接池实现，事务实现
 
 transaction-demo项目链接:https://github.com/JeremieAstray/transaction-demo
 
-##模拟spring容器实现
+## 模拟spring容器实现
 
 基本数据结构
 
@@ -130,7 +130,7 @@ private static void IOC(List<Class> clazzList) throws IllegalAccessException, In
 }
 ```
 
-##模拟连接池实现
+## 模拟连接池实现
 
 连接池是创建和管理一个连接的缓冲池的技术，这些连接准备好被任何需要它们的线程使用。
 
@@ -193,7 +193,7 @@ public void releaseConnection(int id) {
 }
 ```
 
-##模拟事务实现
+## 模拟事务实现
 
 事务是逻辑处理原子性的保证手段，通过使用事务控制，可以极大的避免出现逻辑处理失败导致的脏数据等问题。
 
@@ -283,7 +283,7 @@ public class BaseDynamicService {
 }
 ```
 
-##总结
+## 总结
 
 完成这一系列的编码以后，发现spring的context不是那么简单。这个模拟只能模拟到spring的一些皮毛，只是初尝ioc的写法，并不足以应用于生产环境。
 
