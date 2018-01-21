@@ -50,8 +50,8 @@ public interface MyInterface {
 ```  
       
   
-小伙伴们已经准备好开始我们的Java9编程了么？  
-  
+小伙伴们已经准备好开始我们的Java9编程了么？  （这里是个投票）
+  
 我还是继续用我的Java7吧。  
 Java8势在必发  
 我们来展望未来，Java9 hi起来~  
