@@ -1,3 +1,5 @@
+[<博客主页](https://jeremieastray.github.io)  
+  
 ## Crisis-rpc之一动态代理
 Crisis-rpc项目链接:https://github.com/JeremieAstray/crisis-rpc
 
