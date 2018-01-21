@@ -1,3 +1,5 @@
+[<博客主页](https://jeremieastray.github.io)  
+  
 ## http状态码一览
 
 一些常见的状态码为：   
