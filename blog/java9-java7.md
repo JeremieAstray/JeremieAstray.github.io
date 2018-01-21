@@ -1,3 +1,6 @@
+[<主页](https://jeremieastray.github.io)  
+
+
 ## Java9正式版都已经发布了，我们还在用Java7?
 首先，我这里要恭贺Java9终于不再跳票，发布了正式版。这意味着在Java的时间线中，Java8已经成为旧时代的产品了。    
   
