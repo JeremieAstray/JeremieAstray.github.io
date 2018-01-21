@@ -1,3 +1,5 @@
+[<博客主页](https://jeremieastray.github.io)  
+  
 ## 关于velocity shiro 的整合问题：velocity-tools2.0该如何配置
 
 springmvc4.1.0,shiro1.2.3,velocity1.7,velocity-tools2.0  
