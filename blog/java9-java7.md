@@ -2,7 +2,7 @@
   
 ## Java9正式版都已经发布了，我们还在用Java7?
 首先，我这里要恭贺Java9终于不再跳票，发布了正式版。这意味着在Java的时间线中，Java8已经成为旧时代的产品了。    
-  
+
 ## 现在，我们来回顾一下Java8对比Java7特有的我们比较常用的特性  
   
 ### 1.Lambda表达式
@@ -11,14 +11,26 @@
   
 遍历数组  
 ```
+//老版本java写法
+List<String> strList = Arrays.asList( "a", "b", "d" );
+for (String str: strList) {
+    System.out.println(str);
+}
+//Java8写法
 Arrays.asList( "a", "b", "d" ).forEach(System.out::println);
 ```
 给数组进行排序： 
 ```
-Arrays.asList( "a", "b", "d" ).sort( ( e1, e2 ) -> {
-    int result = e1.compareTo( e2 );
-    return result;
-} );
+//老版本java写法
+List<String> strList2 = Arrays.asList("a", "b", "d");
+Collections.sort(strList, new Comparator<String>() {
+    @Override
+    public int compare(String o1, String o2) {
+        return o1.compareTo(o2);
+    }
+});
+//Java8写法
+Arrays.asList( "a", "b", "d" ).sort(Comparator.naturalOrder());
 ```
 
 Lambda表达式作为Java 8的最大卖点，它有潜力吸引更多的开发者加入到JVM平台，并在纯Java编程中使用函数式编程的概念。如果你需要了解更多Lambda表达式的细节，可以参考[官方文档](https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html)。  
@@ -66,6 +78,19 @@ public class Annotations {
   
 使用流进行元素分组：  
 ```
+//老版本java写法
+List<Foo> fooList = Arrays.asList(foo1, foo2, foo3);
+
+Map<Integer, List<Foo>> fooGroup = new HashMap<>();
+
+for (Foo foo : fooList) {
+    if (!fooGroup.containsKey(foo.getType())) {
+        fooGroup.put(foo.getType(),new ArrayList<>());
+    }
+    fooGroup.get(foo.getType()).add(foo);
+}
+
+//Java8写法
 Map<Integer,List<Foo>> fooGroup = Arrays.asList(foo1,foo2,foo3)
                                         .stream
                                         .collect(Collectors.groupingBy(Foo::getType));
@@ -78,11 +103,23 @@ class Foo {
 
 数组过滤并求和：    
 ```
+//老版本java写法
+ long totalPointsOfOpenTasksTemp = 0;
+ for (Foo foo : tasks) {
+     if (foo != null && foo.getType() == 1) {
+         int point = foo.getPoints();
+         totalPointsOfOpenTasksTemp += point;
+     }
+ }
+
+//Java8写法
 long totalPointsOfOpenTasks = tasks
-    .stream()
-    .filter( task -> task.getStatus() == Status.OPEN )
-    .mapToInt( Task::getPoints )
-    .sum();
+                .stream()
+                .filter(Objects::nonNull)
+                .filter(task -> task.getType() == 1)
+                .mapToInt(Foo::getPoints)
+                .sum();
+
 ```  
 
 Stream API、Lambda表达式还有接口默认方法和静态方法支持的方法引用，是Java 8对软件开发的现代范式的响应。  
@@ -166,10 +203,3 @@ public interface MyInterface {
     private void init() { System.out.println("Initializing"); }  
 }  
 ```  
-      
-  
-## 小伙伴们已经准备好开始我们的Java9编程了么？  （这里是个投票）  
-    
-1. 我还是继续用我的Java7吧。    
-2. Java8势在必发    
-3. 我们来展望未来，Java9 hi起来~   
