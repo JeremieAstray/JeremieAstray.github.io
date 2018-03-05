@@ -1,3 +1,5 @@
+[<博客主页](https://jeremieastray.github.io)  
+  
 ## powerMock+spring+testng/junit应用(mock静态、私有方法) 
 
 ###  1、背景：  
