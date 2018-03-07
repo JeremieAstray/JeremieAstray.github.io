@@ -1,6 +1,6 @@
+## Crisis-rpc之一动态代理  
 [<博客主页](https://jeremieastray.github.io)  
   
-## Crisis-rpc之一动态代理
 Crisis-rpc项目链接:https://github.com/JeremieAstray/crisis-rpc
 
 Crisis-rpc中，有两个地方用到了动态代理，一个是代理rpc服务，一个是代理加载rpc返回的对象，以下是对这两个代理对象进行详细的描述：
