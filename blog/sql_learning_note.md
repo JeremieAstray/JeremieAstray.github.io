@@ -1,6 +1,6 @@
+## SQL 语法学习笔记  
 [<博客主页](https://jeremieastray.github.io)  
   
-## SQL 语法学习笔记
 
 ```
 dml语句：（数据操作语句）

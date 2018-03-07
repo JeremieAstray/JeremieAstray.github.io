@@ -1,6 +1,6 @@
+## 使用Thread的wait方法与notify方法时遇到的IllegalMonitorStateException  
 [<博客主页](https://jeremieastray.github.io)  
   
-## 使用Thread的wait方法与notify方法时遇到的IllegalMonitorStateException
 
 以下代码是用来作同步处理使用的，当线程城运行后，this.currentThread.wait()这句会让线程等待，减少性能损耗。当我有数据要处理时调用handleObject来唤醒线程。
 

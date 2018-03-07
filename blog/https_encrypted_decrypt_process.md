@@ -1,6 +1,6 @@
+## https的加密解密过程  
 [<博客主页](https://jeremieastray.github.io)  
   
-## https的加密解密过程
 
 1、client请求server证书  
 2、server把证书内容，公钥传给client  

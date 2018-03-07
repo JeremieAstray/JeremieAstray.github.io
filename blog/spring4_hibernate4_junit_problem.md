@@ -1,6 +1,6 @@
+## spring4+hibernate4+junit整合问题 Could not obtain transaction-synchronized Session for current thread的问题  
 [<博客主页](https://jeremieastray.github.io)  
   
-## spring4+hibernate4+junit整合问题 Could not obtain transaction-synchronized Session for current thread的问题
 
 当遇到org.hibernate.HibernateException: Could not obtain transaction-synchronized Session for current thread的问题时，要留意测试类是否加了@Transactional注解  
 exception,问题原因，因为hibernate配置了事务处理，所以必须加上@Transactional注解，告诉spring执行程序时，需要进行事务处理。  

@@ -1,6 +1,6 @@
+## powerMock+spring+testng/junit应用(mock静态、私有方法)   
 [<博客主页](https://jeremieastray.github.io)  
   
-## powerMock+spring+testng/junit应用(mock静态、私有方法) 
 
 ###  1、背景：  
 某项目需要mock掉对redis的存储，但是在目标类中该方法是private的，mockito是做不到对private方法进行mock的。  
