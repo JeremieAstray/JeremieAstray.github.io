@@ -22,7 +22,7 @@ JR木幡站
   
 还有正在上映的利兹与青鸟立牌  
 ![利兹与青鸟立牌](http://wx3.sinaimg.cn/large/6155fdddgy1fssi6s8a3dj21mg2fqkjn.jpg)   
-
+  
 其他部分待更新：  
 CLANNAD 古河渚手绘原画稿  
 K-ON 平泽唯手绘原画稿  
