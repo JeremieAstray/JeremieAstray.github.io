@@ -22,3 +22,13 @@ JR木幡站
   
 还有正在上映的利兹与青鸟立牌  
 ![利兹与青鸟立牌](http://wx3.sinaimg.cn/large/6155fdddgy1fssi6s8a3dj21mg2fqkjn.jpg)   
+
+其他部分待更新：  
+CLANNAD 古河渚手绘原画稿  
+K-ON 平泽唯手绘原画稿  
+玉子爱情故事木框挂画  
+K-ON明信片  
+利兹与青鸟挂画  
+紫罗兰永恒花园CREATOR'S MESSAGE BOOK    
+京shop商品袋子（バジ）  
+
