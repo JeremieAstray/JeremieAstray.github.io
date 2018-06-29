@@ -1,5 +1,5 @@
 ## 京shop 手绘原画稿
-6月23号，9天行程的倒数第二天。今天来到了木幡，巡礼京阿尼的本部~小黄屋。  
+6月23号，9天行程的倒数第二天。今天早上来到了木幡，巡礼京阿尼的本部~小黄屋。  
 
 地图位置  
 ![地图位置](image/kyoani_shop/地图位置.png) 
@@ -15,7 +15,13 @@ JR木幡站
 京shop
 ![京shop](http://wx3.sinaimg.cn/large/6155fdddgy1fssi6j14d2j24002czkjt.jpg)   
 
-因为朋友说商店里面不能拍照，我就没有拍里面的照片了，下面是我在京shop买到的~  
+
+
+因为商店里面不能拍照，我就没有拍里面的照片了（其实有一张）  
+预售中的商品  
+![预售中的商品](http://wx2.sinaimg.cn/large/6155fdddgy1fssjlltv0ej23vc2kwnpl.jpg)   
+  
+下面是我在京shop买到的~  
   
 冰菓的明信片（相框是我自己装上的）   
 ![冰菓的明信片](http://wx3.sinaimg.cn/large/6155fdddgy1fssi6gd799j22iq1jyqv7.jpg)   
