@@ -1,25 +1,25 @@
 ## 京shop 手绘原画稿
 6月23号，9天行程的倒数第二天。今天早上来到了木幡，巡礼京阿尼的本部~小黄屋。  
-
+  
 地图位置  
 ![地图位置](image/kyoani_shop/地图位置.png) 
   
 JR木幡站  
 ![JR木幡站](http://wx3.sinaimg.cn/large/6155fdddgy1fssi6uvqj6j23uk2kdkjt.jpg) 
   
-京阿尼本社  
+京阿尼本社    
 ![京阿尼本社](http://wx3.sinaimg.cn/large/6155fdddgy1fssi6qgowrj23vc2kw4qy.jpg)   
   
 ![京阿尼本社2](http://wx4.sinaimg.cn/large/6155fdddgy1fssi6mozapj23vc2kwqvd.jpg)   
   
-京shop
+京shop  
 ![京shop](http://wx3.sinaimg.cn/large/6155fdddgy1fssi6j14d2j24002czkjt.jpg)   
   
 因为商店里面不能拍照，我就没有拍里面的照片了（其实有一张）  
 预售中的商品  
 ![预售中的商品](http://wx2.sinaimg.cn/large/6155fdddgy1fssjlltv0ej23vc2kwnpl.jpg)   
   
-##下面是我在京shop买到的~  
+## 下面是我在京shop买到的~  
   
 冰菓的明信片（相框是我自己装上的）   
 ![冰菓的明信片](http://wx3.sinaimg.cn/large/6155fdddgy1fssi6gd799j22iq1jyqv7.jpg)   
@@ -44,9 +44,9 @@ K-ON明信片
    
 京shop商品袋子（バジ）   
 ![京shop商品袋子](http://wx3.sinaimg.cn/large/6155fdddgy1fswzsmchmbj23hf2v7nph.jpg)   
-
-##接下来是重头戏  
-
+  
+## 接下来是重头戏  
+  
 利兹与青鸟明信片一套  
 ![利兹与青鸟明信片包装](http://wx2.sinaimg.cn/large/6155fdddgy1fswztgaedwj22nn3rbnph.jpg)   
 ![利兹与青鸟明信片1](http://wx3.sinaimg.cn/large/6155fdddgy1fswztd537rj21wo2q1b2d.jpg)   
@@ -70,7 +70,7 @@ CLANNAD 古河渚手绘原画稿
 ![原稿5](http://wx2.sinaimg.cn/large/6155fdddgy1fsx117m0uzj23xb2jlqv8.jpg)
 ![原稿6](http://wx4.sinaimg.cn/large/6155fdddgy1fsx111y3aoj23wr2jy7wl.jpg)
 ![原稿7](http://wx4.sinaimg.cn/large/6155fdddgy1fsx10tkqp4j23w62kcnph.jpg)
-
+  
 K-ON 平泽唯手绘原画稿  
 ![原稿1](http://wx2.sinaimg.cn/large/6155fdddgy1fsx10ai23tj23rb2nokjz.jpg)
 ![原稿2](http://wx3.sinaimg.cn/large/6155fdddgy1fsx10k4vidj22nb3rt7wt.jpg)
