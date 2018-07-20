@@ -13,3 +13,6 @@ Crisis-rpc系列
 * [http状态码一览](https://jeremieastray.github.io/blog/http_status_code)
 * [https的加密解密过程](https://jeremieastray.github.io/blog/https_encrypted_decrypt_process)
 * [SQL 语法学习笔记](https://jeremieastray.github.io/blog/sql_learning_note)
+
+日本游记
+* [京阿尼 京shop 手绘原画稿](https://jeremieastray.github.io/blog/japan/kyoani_shop)
