@@ -73,7 +73,7 @@ CLANNAD 古河渚手绘原画稿
 ![原稿5](http://wx2.sinaimg.cn/large/6155fdddgy1fsx117m0uzj23xb2jlqv8.jpg)
 ![原稿6](http://wx4.sinaimg.cn/large/6155fdddgy1fsx111y3aoj23wr2jy7wl.jpg)
 ![原稿7](http://wx4.sinaimg.cn/large/6155fdddgy1fsx10tkqp4j23w62kcnph.jpg)
-![拼图](http://wx4.sinaimg.cn/large/6155fdddly1fumb7zeswsg235s219x6p.gif)
+![拼图](http://wx3.sinaimg.cn/large/6155fdddly1fumbllk5yng235s219x6p.gif)
   
 K-ON 平泽唯手绘原画稿  
 ![原稿1](http://wx2.sinaimg.cn/large/6155fdddgy1fsx10ai23tj23rb2nokjz.jpg)
@@ -83,4 +83,4 @@ K-ON 平泽唯手绘原画稿
 ![原稿5](http://wx3.sinaimg.cn/large/6155fdddgy1fsx11aghbcj23xm2jenpg.jpg)
 ![原稿6](http://wx2.sinaimg.cn/large/6155fdddgy1fsx10z92mgj23x62jonph.jpg)
 ![原稿7](http://wx3.sinaimg.cn/large/6155fdddgy1fsx10wf42nj23y22j4nph.jpg)
-![拼图](http://wx4.sinaimg.cn/large/6155fdddgy1fumb07nns0g235s20j7wi.gif)
+![拼图](http://wx2.sinaimg.cn/large/6155fdddly1fumblm3pomg235s219b2a.gif)
