@@ -10,10 +10,10 @@
 JR木幡站  
 ![JR木幡站](http://wx3.sinaimg.cn/large/6155fdddgy1fssi6uvqj6j23uk2kdkjt.jpg) 
   
-京阿尼本社    
-![京阿尼本社](http://wx3.sinaimg.cn/large/6155fdddgy1fssi6qgowrj23vc2kw4qy.jpg)   
+kyoani animation 
+![kyoani do shop](http://wx3.sinaimg.cn/large/6155fdddgy1fssi6qgowrj23vc2kw4qy.jpg)   
   
-![京阿尼本社2](http://wx4.sinaimg.cn/large/6155fdddgy1fssi6mozapj23vc2kwqvd.jpg)   
+![kyoani animation](http://wx4.sinaimg.cn/large/6155fdddgy1fssi6mozapj23vc2kwqvd.jpg)   
   
 京shop  
 ![京shop](http://wx3.sinaimg.cn/large/6155fdddgy1fssi6j14d2j24002czkjt.jpg)   
